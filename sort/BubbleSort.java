@@ -7,9 +7,9 @@ package algorithm.sort;
  */
 public class BubbleSort {
 	public static void main(String[] args){
-		int[] array = {99,35,35,76,12};
+		int[] array = {0,35,35,76,12};
 		
-		for(int i = 0; i < array.length; i ++){
+		for(int i = 0; i < array.length - 1; i ++){
 			for(int j = 0; j < array.length - 1 - i; j ++){
 				if(array[j] < array[j + 1]){
 					int temp = array[j];
