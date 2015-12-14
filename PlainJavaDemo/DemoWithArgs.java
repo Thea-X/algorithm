@@ -1,5 +1,5 @@
 /**
-*学习为main方法传递参数
+*args的学习使用
 */
 public class DemoWithArgs{
 	public static void main(String[] args){
